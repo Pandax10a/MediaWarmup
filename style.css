@@ -49,6 +49,26 @@ body {
             grid-template-columns: repeat(auto-fit, minmax(800px,1fr));
             
         }
+        #grid4 {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        div p {
+            order: 2;
+        }
+        div img {
+            order: 1;
+        }
+        #grid3 {
+            display: grid;
+            place-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(800px,1fr));
+            
+        }
+        #grid5 {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
     }
 
 
